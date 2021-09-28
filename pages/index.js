@@ -11,7 +11,10 @@ export default function Home() {
       redirect: 'follow',
     };
 
-    fetch('https://test-service-lo1btsvqd/Cardapio', requestOptions)
+    fetch(
+      'https://test-service-lo1btsvqd.azurewebsites.net/cardapio',
+      requestOptions
+    )
       .then((response) => response.json())
       .then((result) => setCardapio(result))
       .catch((error) => console.log('error', error));
