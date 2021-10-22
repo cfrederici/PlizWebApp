@@ -22,7 +22,7 @@ const Create = () => {
     };
 
     fetch(
-      'https://localhost:44355/Estabelecimento/CreateEstabelecimento',
+      'https://test-service-lo1btsvqd.azurewebsites.net/Estabelecimento/CreateEstabelecimento',
       requestOptions
     )
       .then((response) => response.json())

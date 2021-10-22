@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
+import Menu from '../src/components/Menu';
 
 export default function Home() {
   const [cardapio, setCardapio] = useState([{}]);
@@ -86,8 +87,7 @@ export default function Home() {
     //   </table>
     // </div>
     <>
-      <p>Menu</p>
-      <Link href="/Estabelecimentos">Estabelecimentos</Link>
+      <Menu />
     </>
   );
 }
