@@ -8,7 +8,7 @@ const Menu = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <script src="//code-sa1.jivosite.com/widget/xRbm4yXyhr" async></script>
+        {/* <script src="//code-sa1.jivosite.com/widget/xRbm4yXyhr" async></script> */}
       </Head>
 
       <Link href="/Estabelecimentos">Estabelecimentos</Link>
